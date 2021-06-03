@@ -11,6 +11,8 @@ export default () => {
     // listRef.current.scrollToIndex({ index: 5 });
   }, []);
 
+  // const AnimatedFlatList = 
+
   const scrollHandler = useAnimatedScrollHandler({
     onScroll: (e) => {
       console.log(e);
